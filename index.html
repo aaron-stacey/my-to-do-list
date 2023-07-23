@@ -11,7 +11,15 @@
     <title>My To-Do List</title>
   </head>
   <body>
-    <header>My To-Do List</header>
+    <header>
+      <span>My To-Do List</span>
+      <form action="post" id="to-do-form">
+        <div class="form-input">
+          <input type="text" name="" id="" placeholder="Enter new to-do..." />
+        </div>
+        <button type="submit">Add</button>
+      </form>
+    </header>
     <section id="to-do-list">
       <div class="to-do-item">
         <span class="material-symbols-outlined"> delete_sweep </span
@@ -44,10 +52,5 @@
         ><span class="material-symbols-outlined"> check </span>
       </div>
     </section>
-    <form action="post" id="to-do-form">
-      <div class="form-input"><input type="text" name="" id="" /></div>
-      <button type="submit">Add</button>
-    </form>
-    <footer></footer>
   </body>
 </html>
