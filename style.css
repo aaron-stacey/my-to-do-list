@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+:root {
+  --text: hsl(0, 0%, 2%);
+  --background: hsl(0, 0%, 98%);
+  --primary: hsl(85, 30%, 46%);
+  --secondary: hsl(88, 29%, 90%);
+  --accent: hsl(85, 30%, 50%);
+}
+
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+img,
+picture,
+svg {
+  max-width: 100%;
+  display: block;
+}
+
+/* tags */
+body {
+  background: var(--background);
+}
