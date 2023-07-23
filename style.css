@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
-
 :root {
   --text: hsl(0, 0%, 2%);
   --background: hsl(0, 0%, 98%);
@@ -21,6 +19,8 @@
 html,
 body {
   height: 100%;
+  display: grid;
+  place-content: center;
 }
 
 img,
@@ -33,4 +33,16 @@ svg {
 /* tags */
 body {
   background: var(--background);
+}
+
+#to-do-list {
+}
+
+#to-do-form {
+}
+
+.to-do-item {
+}
+
+.to-do {
 }
